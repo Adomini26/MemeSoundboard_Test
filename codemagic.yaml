@@ -11,7 +11,7 @@ workflows:
           keychain initialize
       - name: Build iOS
         script: |
-          xcodebuild \
+          xcodebuild clean build \
             -project "MemeSoundboard.xcodeproj" \
             -scheme "MemeSoundboard" \
             -configuration Debug \
