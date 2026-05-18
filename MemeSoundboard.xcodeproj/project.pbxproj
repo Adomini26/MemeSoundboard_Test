@@ -7,19 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D382F7C2FBAD2D7000839CB /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D382F772FBAD2D7000839CB /* Meme.swift */; };
-		1D382F7D2FBAD2D7000839CB /* MemeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D382F782FBAD2D7000839CB /* MemeButton.swift */; };
-		1D382F7E2FBAD2D7000839CB /* MemeSoundboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D382F792FBAD2D7000839CB /* MemeSoundboardApp.swift */; };
-		1D382F7F2FBAD2D7000839CB /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D382F7A2FBAD2D7000839CB /* SoundManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D382F672FBAD21F000839CB /* MemeSoundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeSoundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D382F762FBAD2D7000839CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D382F772FBAD2D7000839CB /* Meme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
-		1D382F782FBAD2D7000839CB /* MemeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeButton.swift; sourceTree = "<group>"; };
-		1D382F792FBAD2D7000839CB /* MemeSoundboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeSoundboardApp.swift; sourceTree = "<group>"; };
-		1D382F7A2FBAD2D7000839CB /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -57,11 +48,6 @@
 		1D382F5E2FBAD21F000839CB = {
 			isa = PBXGroup;
 			children = (
-				1D382F762FBAD2D7000839CB /* Info.plist */,
-				1D382F772FBAD2D7000839CB /* Meme.swift */,
-				1D382F782FBAD2D7000839CB /* MemeButton.swift */,
-				1D382F792FBAD2D7000839CB /* MemeSoundboardApp.swift */,
-				1D382F7A2FBAD2D7000839CB /* SoundManager.swift */,
 				1D382F692FBAD21F000839CB /* MemeSoundboard */,
 				1D382F682FBAD21F000839CB /* Products */,
 			);
@@ -149,10 +135,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D382F7C2FBAD2D7000839CB /* Meme.swift in Sources */,
-				1D382F7D2FBAD2D7000839CB /* MemeButton.swift in Sources */,
-				1D382F7E2FBAD2D7000839CB /* MemeSoundboardApp.swift in Sources */,
-				1D382F7F2FBAD2D7000839CB /* SoundManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
