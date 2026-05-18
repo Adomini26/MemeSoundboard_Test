@@ -1,0 +1,21 @@
+workflows:
+  ios-workflow:
+    name: iOS Workflow
+    max_build_duration: 60
+    environment:
+      xcode: latest
+      cocoapods: default
+    scripts:
+      - name: Set up code signing
+        script: |
+          keychain initialize
+      - name: Build iOS
+        script: |
+          xcodebuild \
+            -project "MemeSoundboard.xcodeproj" \
+            -scheme "MemeSoundboard" \
+            -configuration Debug \
+            -sdk iphonesimulator \
+            -derivedDataPath ./build
+    artifacts:
+      - build/Build/Products/Debug-iphonesimulator/*.app
