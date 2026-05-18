@@ -22,9 +22,22 @@
 		1D382F7A2FBAD2D7000839CB /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1D382F802FBAD2D7000839CB /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1D382F662FBAD21F000839CB /* MemeSoundboard */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		1D382F692FBAD21F000839CB /* MemeSoundboard */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1D382F802FBAD2D7000839CB /* PBXFileSystemSynchronizedBuildFileExceptionSet */,
+			);
 			path = MemeSoundboard;
 			sourceTree = "<group>";
 		};
@@ -373,3 +386,4 @@
 	};
 	rootObject = 1D382F5F2FBAD21F000839CB /* Project object */;
 }
+
